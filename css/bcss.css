@@ -1,0 +1,114 @@
+.hidden {
+    display: none;
+}
+.ui-autocomplete-loading {
+    background: white url('../img/ui-anim_basic_16x16.gif') right center no-repeat;
+}
+.ui-menu-item{
+   font-weight: bold;
+   font-size: 11px;
+}
+.table-result {
+    font-size: 11px;
+}
+.table-result th {
+    padding: 5px 3px !important;
+}
+.table-result td {
+    padding: 5px 3px !important;
+}
+
+.services {
+  background-image: url("hdot.png");
+  background-repeat: repeat;
+  padding: 30px 0;
+  /*min-height: 250px;*/
+  color: #333333;
+  border-bottom: solid 1px #cccccc;
+}
+
+.about {
+  background: #d7e8fa;
+  padding: 60px 0;
+  min-height: 500px;
+  color: #333333;
+  border-bottom: solid 1px #cccccc;
+}
+
+ol.tilted-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol.tilted-list > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 1em;
+    border-left: 2px solid #CCCCCC;
+    background-color: #f5f5f5;
+}
+ol.tilted-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -0.95em;
+    width: 1em;
+ 
+    font-size: 4em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+     
+    transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    z-index: -99;
+    overflow: hidden;
+     
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+.footer-bg {
+  color: #ffffff;
+  background: #1e1e1e;
+  padding: 60px 0;
+  font-size: 11px;
+}
+.max-width-250 {
+  max-width: 520px;
+}
+.div-name-scroller {
+    overflow: hidden;
+    height: 1.4em;
+        clear: both;
+        max-width: 1400px;
+            position: relative;
+            text-align: justify;
+            text-justify: inter-word;
+            vertical-align:top;
+}
+ul#name-scroller {
+    padding: 0;
+}
+
+ul#name-scroller li {
+    display: inline;
+}
+
+ul#name-scroller li a {
+    
+    margin-right: 20px;
+    text-decoration: none;
+}
+.femalecolor {
+    color: #E46985 !important;
+}
+.malecolor {
+    color: #4F818D !important;
+}
